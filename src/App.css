@@ -1,0 +1,24 @@
+.App{
+    padding: 2em;
+}
+
+ul{
+    display:flex;
+    justify-content:flex-end;
+    gap:2em;
+}
+a{
+    text-decoration: none;
+}
+.not-selected{
+    color: #585656
+
+}
+.selected,a:active {
+    color: #d62d10;
+  }
+
+li{
+    list-style-type: none;
+}
+
